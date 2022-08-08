@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: antiquewhite;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /*center vert*/
+  justify-content: center; /*center hor*/
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; /*this will put the text of hour, min right under the time*/
+}
+
+.day,
+.hour,
+.minutes,
+.seconds {
+  font-size: 3rem;
+}
+
+.tickets {
+  color: black;
+  text-decoration: none;
+  margin-top: 5vh;
+}
+
+.tickets:hover {
+  color: red;
+  font-size: 110%;
+  transition: 0.2s ease-in;
+  text-decoration: underline;
+}
+
+.hotels {
+  color: black;
+  text-decoration: none;
+  margin-top: 1vh;
+}
+
+.hotels:hover {
+  color: red;
+  font-size: 110%;
+  transition: 0.2s ease-in;
+  text-decoration: underline;
+}
+
+.location {
+  color: black;
+  text-decoration: none;
+  margin-top: 1vh;
+}
+
+.location:hover {
+  color: red;
+  font-size: 110%;
+  transition: 0.2s ease-in;
+  text-decoration: underline;
+}
+
+.map {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+
+}
